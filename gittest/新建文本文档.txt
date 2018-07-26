@@ -1,0 +1,44 @@
+创建一个空目录
+mkdir learngit
+cd learngit
+pwd
+1
+2
+3
+git init命令把目录变成Git可以管理的仓库
+git init
+1
+2.把文件添加到版本库
+
+一定将文件放在learngit目录下（或子目录下）
+将文件添加到仓库
+git add filename
+1
+把文件提交到仓库
+git commit -m "sighment"
+// -m 后面输入的是本次提交的说明，可输入任何内容
+// commit可以一次提交很多文件
+
+
+
+5.远程库
+
+-git remote add origin git@github.com:name/filework.git 
+
+
+
+7.分支
+
+git checkout -b branchname 
+创建一个名为”branchname”的新分支 
+相当于
+git branch branchname
+git checkout branchname
+
+
+
+
+- git push -u origin master 
+第一次推送mster分支的所有内容 
+- git push origin master 
+本地提交后推送最新修改
