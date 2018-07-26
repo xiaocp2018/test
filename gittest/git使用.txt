@@ -43,4 +43,13 @@ git checkout branchname
 - git push origin master 
 本地提交后推送最新修改
 
-test
+
+git log 查看提交历史
+git log -p -2 查看2条
+
+
+
+
+
+使用:
+https://blog.csdn.net/qq_38310789/article/details/80623975
