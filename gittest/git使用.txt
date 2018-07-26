@@ -47,6 +47,8 @@ git checkout branchname
 git log 查看提交历史
 git log -p -2 查看2条
 
+git merge后如果未生效，git push即可
+
 
 
 
